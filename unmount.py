@@ -10,7 +10,7 @@ for f in fff:
     
     if index & 1 == 0:
       
-      f=names.replace("|","")
+      f=f.replace("|","")
       names=f
       print(f)
       print(names)
